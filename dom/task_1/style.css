@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slider__items {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    position: relative;
+    transition: right 0.3s;
+}
+
+.slider__item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background: #ffefd5;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    position: absolut;
+}
+
+.arrow {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    user-select: none;
+}
